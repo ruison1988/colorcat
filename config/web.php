@@ -48,6 +48,11 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'organize' => [
+            'class' => 'app\modules\organize\organize',
+        ],
+    ],
     'params' => $params,
 ];
 
